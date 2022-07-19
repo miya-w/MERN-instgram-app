@@ -1,5 +1,14 @@
+# Instgram Clone App
+#### A photo sharing social media web application built using Express.js, React, Redux, Mongodb. Features include:
 
-depency
+- Post and upload images
+- Like, unlike, save and unsave images
+- Login, logout, create/delete profile
+- Comment, delete comments
+- Upload and crop profile picture
+- Search users
+
+### Depency
 
 + redux-thunk@2.4.1
 + axios@0.27.2
@@ -14,9 +23,9 @@ depency
 + mongoose@6.4.4
 + nodemon@2.0.19
 + cors@2.8.5
-
+---
 npm install express mongoose body-parser cors nodemon
-
+```
 1. npm init -y
     -> this creates package.json file
     
@@ -30,8 +39,9 @@ npm install express mongoose body-parser cors nodemon
 5. User thunderclient a visual studio extension for verifying connection right from visual studio
 
 6.Start your server -> node index.js
-
+```
  Getting Start - CLIENT
+```
 //- React install
     1. npx create-react-app ./
         Just like regular react project use this to create default react files
@@ -46,7 +56,7 @@ npm install axios moment redux redux-thunk
 
 // - Start your new React app
     3. npm start
-
+```
 
 
 ```

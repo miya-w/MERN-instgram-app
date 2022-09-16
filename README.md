@@ -83,8 +83,8 @@ npm install axios moment redux redux-thunk
 ## 3.Mongoose -> Create Router, Controller, Schema
 
 
-(mongoose)[]   
-- " Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB." [Introduction to Mongoose for MongoDB](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
+[mongoose](https://mongoosejs.com/docs/)   
+- " Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node.js. It manages relationships between data, provides **schema** validation, and is used to translate between objects in code and the representation of those objects in MongoDB." [Introduction to Mongoose for MongoDB](https://www.freecodecamp.org/news/introduction-to-mongoose-for-mongodb-d2a7aa593c57/)
 
 ### Set up Schdema
 /models/storyContent.js
@@ -121,14 +121,16 @@ router.post("/", createStory);
 export default router;
 ```
 
-## Client side - React
+# Client side - React
 
 ### Axios
-What is Axios
+- What is Axios
+
 Axios is a promised-based HTTP client for JavaScript. It has the ability to make HTTP requests from the browser and handle the transformation of request and response data.
 
 ### Redux
  - What is Redux
+ 
  Redux is a pattern and library for managing and updating application state, using events called "actions".
 
 ### install redux
@@ -168,7 +170,7 @@ export const getStories = () => async (dispatch) => {
 };
 ```
 -  Fetching Data from Global State (useSelector)
-```
+
 
 
   ### Appendix
